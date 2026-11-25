@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "node src/server.mjs",
-    "test": "node --test test/"
+    "test": "node --test \"test/**/*.test.mjs\""
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.32.2",
